@@ -1,6 +1,6 @@
 # DataScienceProject
 # Introduction
-The National Basketball Association (NBA) stands as one of the most prestigious professional basketball leagues globally, showcasing top-tier athletes from around the world. As the NBA continues to evolve, teams face the ongoing challenge of effectively evaluating player performance, making informed decisions on player contracts, and predicting player career longevity. In this project, I aim to explore these key aspects of NBA player analysis using a comprehensive dataset encompassing player statistics, contract details, and career trajectories.
+The National Basketball Association (NBA) stands as one of the most prestigious professional basketball leagues globally, showcasing top-tier athletes from around the world. As the NBA continues to evolve, teams face the ongoing challenge of effectively evaluating player performance and making informed decisions on player contracts. In this project, I aim to explore these key aspects of NBA player analysis using a comprehensive dataset encompassing player statistics and contract details.
 # Research Questions
 1. Impact of player height on effectivness: This question will explore the physical attribute of height and how it relates to a players key performance metrics. I expect there to be a positive correlation when the NBA is analyzed as a whole.
 2. If a players contract increases does their performance increase as well: I seek to investigate wether there is a correlation between a players increase in contract and their performance.
