@@ -15,8 +15,12 @@ Data exceptions: The 2023 contract data did not have all of the players from the
 A preview of the player data can be seen here:
 ![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/d39e7db6-6975-42fd-b18b-c2d9e4dd61b2)
 
+In google Collab I further filtered the data using lines of code such as:
+![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/62963cd7-99f8-4493-a830-2f7c093241b9)
 
 # methodology
-My analysis will involve data exploration, feature engineering, and statistical modeling techniques to address the research questions outlined above. I will utilize Python and libraries such as NumPy, Pandas, Matplotlib, and Scikit-learn for data manipulation, visualization, and modeling. The dataset used for this study comprises comprehensive NBA player statistics, contract details, and demographic information, providing a comprehensive analysis of player performance and career trajectories.
+Tools: Pandas, Numpy, Matplotlib.pyplot, seaborn, Excel
 
-Through this project, I aim to contribute to the body of knowledge surrounding NBA player evaluation and decision-making processes, providing actionable insights for teams, coaches, and analysts in the basketball industry.
+My analysis involved data exploration, statistical modeling, and data visualization to address the research questions outlined above. I used various methods such as plotting linear regression coefficients to identify correlation and relationships between variables. For some research questions I put the data into bins to analyze the averages of different groups of data. This helped identify trends throughout the league in a way that is visually legible. I created multiple bar graphs when I plotted the performance metrics, some variables needed a different range and could not all be plotted on the same graph.
+
+In my data exploration phase I would compare many variables and how the related to each other in a seaborn pairplot and heatmap. Through this I was able to identify important statistical information that I could further inspect with other graphs and strategies to answer each research question. I tried many different visualizations and analysis of the data after this initial data exploration which led me to my final graphs where I drew my conclusions. I will include these final graphs in this project report.
