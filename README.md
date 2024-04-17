@@ -29,11 +29,14 @@ In my data exploration phase I would compare many variables and how the related 
 # Results
 
 Impact of player height on effectivness:
+
 ![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/588a936d-1012-47ca-9a9b-da6b082a4d4f)
 
 ![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/4f1efd20-6d53-4b36-b1a7-089a620ae88a)
 
 The overall conclusion is that height does not impact a players effectiveness on the court. There is some positive correlation between Rebounds, FG%, and Blocks per game, but in other key areas such as points, assists, or plus minus, there is little or negative correlation. Rebounds and blocks are a defensive attribute and it is obvious that the taller a person is the easier it is to get to a ball in the air which explains the positive correlation in these metrics. Field goal percentage is a less obvious metric to be somewhat correlated to height. This is explained by the shot selection of taller players. Many tall players in the league are finishing from right under the hoop or inside the paint, there is less margin for error the closer you get to the basket. The other important stats that make up effective players have no correlation to height, therefore, with the reasons explaining the somewhat correlated stats, I can assume that height does not impact a players effectiveness.
+
+
 
 
 If a players contract increases does their performance increase as well:
@@ -51,6 +54,8 @@ The graphs for each position all follow a very similar trend with minor nuances.
 ![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/153a0a4c-e803-4813-8827-2c7b4a756f43)
 
 In conclusion, a players contract increase does correlate with player performance, but it does correlate to team performance.
+
+
 
 
 Performance metrics as it relates to contract valuations:
