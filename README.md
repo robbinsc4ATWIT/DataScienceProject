@@ -5,8 +5,17 @@ The National Basketball Association (NBA) stands as one of the most prestigious 
 1. Impact of player height on effectivness: This question will explore the physical attribute of height and how it relates to a players key performance metrics. I expect there to be a positive correlation when the NBA is analyzed as a whole.
 2. Correlation Increase: I seek to investigate wether there is a correlation between a players increase in contract and their performance.
 3. Contract Valuation: Analyzing the relationship between player performance and contract value to determine if certain performance metrics are undervalued or overvalued in player contracts.
-# Data sets
-The data sets from this project will take sources from the NBA and ESPN website to find advanced player statistics. ESPN also has all of the player salary data. These data sets will likely need to be combined in order to analyze in python.
+# Selection of Data
+The model processing and analysis are conducted using Google Collab.
+
+The data contains nearly 500 samples, including most of the NBA players in the league today. For each player there are varied performance metrics and other data points including height, age, wingspan, games played, and player contracts. This is taken from the 2023-2024 which is referred to as 2024 throughout this project, and the 2022-2023 season which is referred to as 2023. This data is pulled from three sources, NBA, ESPN, and Basketball-Reference. Player data was copied to a sheet in excel. Then in other sheets player height data was added and player contract data was added. The player name was used in a VLOOKUP function add new data columns to the player data set. After all the data was on one sheet it was exported to goggle collab for analysis.
+
+Data exceptions: The 2023 contract data did not have all of the players from the 2024 contract data so in some cases the salary and contract increase will be N/A and not included in analysis. Most of these players are rookies for this season or did not play in the previous year, in some cases the data was just not available, but overall there was not much impact on the data set.
+
+A preview of the player data can be seen here:
+![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/d39e7db6-6975-42fd-b18b-c2d9e4dd61b2)
+
+
 # methodology
 My analysis will involve data exploration, feature engineering, and statistical modeling techniques to address the research questions outlined above. I will utilize Python and libraries such as NumPy, Pandas, Matplotlib, and Scikit-learn for data manipulation, visualization, and modeling. The dataset used for this study comprises comprehensive NBA player statistics, contract details, and demographic information, providing a comprehensive analysis of player performance and career trajectories.
 
