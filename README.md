@@ -55,6 +55,23 @@ In conclusion, a players contract increase does correlate with player performanc
 
 Performance metrics as it relates to contract valuations:
 
-This final question is best answered using a pair plot to determine linear regression between the variable of contract size and any other performance metric.
+This final question is best answered using a pair plot to compare a players plus minus, which is there actual value a player gives to the team, and a players contract value, which is there expected value. This should be looked at for each position. The values in the row ContractY2 (2024 NBA Season) show how a player is assigned value, the closer a performance metric such as Points Per Game is to 1 the more this stat is weighted in a contract decision. In the Plus Minus row the actual impact of each performance metric is shown. Putting these two side by side gives a great comparison of contract value compared to actual value. Theoretically, the most correlated performance metric on Plus Minus should also be the most correlated metric in Contract Value.
+
+Guards:
+![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/1b397abc-3c4a-4b25-a457-4380ccdc60c7)
+
+For guards, the top three actual performance metrics are Field Goal Percentage, Blocks Per Game, and Steals Per Game. These are the lowest in the assigned value by a large margin which indicates that there is a mismatch for guards and their contracts. It also likely means that guards bring a different value to a team than just statistics that are shown on paper.
+
+Forwards:
+![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/ea4aa1cd-3480-4407-a58e-dc7505e7f30a)
+
+The number one performing metric for forwards is indicated to be Field Goal Percentage. This metric has little impact on a players contract value. The next three top performing metrics, points, rebounds and assists are valued most in a forwards contract. This indicates that these contracts are on track with player performance.
+
+Centers:
+![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/45f32e41-2ddf-49be-b145-d63ef278886b)
+
+Centers show a large variety of performance metrics correlating with Contracts, however, there are two metrics that are significantly more important than the rest when it comes to actual performance. These metrics are points and assists. Center contracts should be slightly more tailored to centers who can perform these attributes more effectively.
+
+
 
 
