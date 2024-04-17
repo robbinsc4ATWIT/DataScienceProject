@@ -3,8 +3,8 @@
 The National Basketball Association (NBA) stands as one of the most prestigious professional basketball leagues globally, showcasing top-tier athletes from around the world. As the NBA continues to evolve, teams face the ongoing challenge of effectively evaluating player performance, making informed decisions on player contracts, and predicting player career longevity. In this project, I aim to explore these key aspects of NBA player analysis using a comprehensive dataset encompassing player statistics, contract details, and career trajectories.
 # Research Questions
 1. Impact of player height on effectivness: This question will explore the physical attribute of height and how it relates to a players key performance metrics. I expect there to be a positive correlation when the NBA is analyzed as a whole.
-2. Correlation Increase: I seek to investigate wether there is a correlation between a players increase in contract and their performance.
-3. Contract Valuation: Analyzing the relationship between player performance and contract value to determine if certain performance metrics are undervalued or overvalued in player contracts.
+2. If a players contract increases does their performance increase as well: I seek to investigate wether there is a correlation between a players increase in contract and their performance.
+3. Performance metrics as it relates to contract valuations: Analyzing the relationship between player performance and contract value to determine if certain performance metrics are undervalued or overvalued in player contracts.
 # Selection of Data
 The model processing and analysis are conducted using Google Collab.
 
@@ -16,6 +16,7 @@ A preview of the player data can be seen here:
 ![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/d39e7db6-6975-42fd-b18b-c2d9e4dd61b2)
 
 In google Collab I further filtered the data using lines of code such as:
+
 ![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/62963cd7-99f8-4493-a830-2f7c093241b9)
 
 # methodology
@@ -24,3 +25,36 @@ Tools: Pandas, Numpy, Matplotlib.pyplot, seaborn, Excel
 My analysis involved data exploration, statistical modeling, and data visualization to address the research questions outlined above. I used various methods such as plotting linear regression coefficients to identify correlation and relationships between variables. For some research questions I put the data into bins to analyze the averages of different groups of data. This helped identify trends throughout the league in a way that is visually legible. I created multiple bar graphs when I plotted the performance metrics, some variables needed a different range and could not all be plotted on the same graph.
 
 In my data exploration phase I would compare many variables and how the related to each other in a seaborn pairplot and heatmap. Through this I was able to identify important statistical information that I could further inspect with other graphs and strategies to answer each research question. I tried many different visualizations and analysis of the data after this initial data exploration which led me to my final graphs where I drew my conclusions. I will include these final graphs in this project report.
+
+# Results
+
+Impact of player height on effectivness:
+![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/588a936d-1012-47ca-9a9b-da6b082a4d4f)
+
+![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/4f1efd20-6d53-4b36-b1a7-089a620ae88a)
+
+The overall conclusion is that height does not impact a players effectiveness on the court. There is some positive correlation between Rebounds, FG%, and Blocks per game, but in other key areas such as points, assists, or plus minus, there is little or negative correlation. Rebounds and blocks are a defensive attribute and it is obvious that the taller a person is the easier it is to get to a ball in the air which explains the positive correlation in these metrics. Field goal percentage is a less obvious metric to be somewhat correlated to height. This is explained by the shot selection of taller players. Many tall players in the league are finishing from right under the hoop or inside the paint, there is less margin for error the closer you get to the basket. The other important stats that make up effective players have no correlation to height, therefore, with the reasons explaining the somewhat correlated stats, I can assume that height does not impact a players effectiveness.
+
+
+If a players contract increases does their performance increase as well:
+
+For this question I decided to graph certain performance metrics by position where the players increase in contract was group onto the X axis and the performance metrics measured on the Y axis.
+
+![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/17e8d294-f707-441e-a969-3e15ec1f5dc6)
+
+![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/30c32a98-0519-45ec-81e4-c3acf0bee664)
+
+![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/bf0d14e9-c865-4b9a-85b0-d1c8bfb2eab6)
+
+The graphs for each position all follow a very similar trend with minor nuances. Players with larger contract increases year on year are more effective than players with smaller increases or even decreases. This indicates that the sports analysts are doing a great job in valuing player contracts based on their performance. However, in some cases players seem to be slightly overvalued. This can be seen in the graph for centers which shows a decrease in rebounding after a 20 million dollar contract increase. Player performance isn't everything either, in the following graph it is clear that there is strong negative correlation between a players plus minus and a players contract increase for guards.
+
+![image](https://github.com/robbinsc4ATWIT/DataScienceProject/assets/90586029/153a0a4c-e803-4813-8827-2c7b4a756f43)
+
+In conclusion, a players contract increase does correlate with player performance, but it does correlate to team performance.
+
+
+Performance metrics as it relates to contract valuations:
+
+This final question is best answered using a pair plot to determine linear regression between the variable of contract size and any other performance metric.
+
+
